@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+
+h1 {
+    color: #7c795d; 
+    font-family: 'Trocchi', serif; 
+    font-size: 70px; 
+    font-weight: normal; 
+}
+
+button {
+    display: flex;
+    width: 120px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    
+}
+
+/* div {
+    display: flex;
+    flex-direction: column;
+    
+    
+} */
+
+#submitButton {
+    display: flex;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+
+
+#newBookForm {
+    display: none;
+    flex-direction: column;
+    height: 240px;
+    width: 300px;
+    align-items: center;
+    gap: 5px;
+    background-color: lightblue;
+}
+
+
+
+
+table {
+    
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+}
+
+tr {
+    /* display: flex;
+    gap: 100px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+td {
+    text-align: center;
+}
+
+#removeButton {
+    width: 70px;
+    height: 28px;
+}
+
+
+
+
+
